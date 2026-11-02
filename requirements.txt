@@ -1,0 +1,23 @@
+# ==========================================
+# Black Ant Framework - Dependencies
+# ==========================================
+
+# 1. Core - Essential for running the orchestrator
+rich>=13.0.0
+requests>=2.28.0
+pefile>=2023.2.7
+
+# 2. Microservice & API
+flask>=2.0.0
+werkzeug>=2.0.0
+
+# 3. Advanced Static Analysis & Similarity Hashes (Highly Recommended)
+yara-python>=3.11.0
+# ssdeep (Optional - Requires C++ Build Tools or WSL)>=3.4
+# tlsh (Optional - Requires C++ Build Tools or WSL)
+
+# 4. Dynamic Analysis & Emulation
+speakeasy
+
+
+
